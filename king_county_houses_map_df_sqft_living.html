@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_251dcaa5aaad2cec042df89dd13443c5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_251dcaa5aaad2cec042df89dd13443c5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_251dcaa5aaad2cec042df89dd13443c5 = L.map(
+                "map_251dcaa5aaad2cec042df89dd13443c5",
+                {
+                    center: [47.6062, -122.3321],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d65423b81af9fea008d0efb74bdaeaf5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_251dcaa5aaad2cec042df89dd13443c5);
+        
+    
+            var marker_110d7e85db090555502a4f534bba9c5a = L.marker(
+                [47.6976, -122.169],
+                {}
+            ).addTo(map_251dcaa5aaad2cec042df89dd13443c5);
+        
+    
+            var icon_edf7a215d6108ca65ca985e58e2298f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_110d7e85db090555502a4f534bba9c5a.setIcon(icon_edf7a215d6108ca65ca985e58e2298f8);
+        
+    
+        var popup_c26a77a6b1556e31192e841ea8d98922 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89877eb38150bb53a4f43cbea5e2dc42 = $(`<div id="html_89877eb38150bb53a4f43cbea5e2dc42" style="width: 100.0%; height: 100.0%;">House ID: 2128000160<br>Price: $429000.00<br>House Grading: 8</div>`)[0];
+            popup_c26a77a6b1556e31192e841ea8d98922.setContent(html_89877eb38150bb53a4f43cbea5e2dc42);
+        
+
+        marker_110d7e85db090555502a4f534bba9c5a.bindPopup(popup_c26a77a6b1556e31192e841ea8d98922)
+        ;
+
+        
+    
+    
+            var marker_280b3658709cd56e958be5f0e3ccaddf = L.marker(
+                [47.7035, -122.164],
+                {}
+            ).addTo(map_251dcaa5aaad2cec042df89dd13443c5);
+        
+    
+            var icon_5f684c0c1cb824aed86f49966ae11ff9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_280b3658709cd56e958be5f0e3ccaddf.setIcon(icon_5f684c0c1cb824aed86f49966ae11ff9);
+        
+    
+        var popup_a0fb75b28fc605309dc74df0cf8a4ef8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d192d893e0037a83ee8722d30165790d = $(`<div id="html_d192d893e0037a83ee8722d30165790d" style="width: 100.0%; height: 100.0%;">House ID: 7524400250<br>Price: $424240.00<br>House Grading: 8</div>`)[0];
+            popup_a0fb75b28fc605309dc74df0cf8a4ef8.setContent(html_d192d893e0037a83ee8722d30165790d);
+        
+
+        marker_280b3658709cd56e958be5f0e3ccaddf.bindPopup(popup_a0fb75b28fc605309dc74df0cf8a4ef8)
+        ;
+
+        
+    
+    
+            var marker_06347ebc57f062cf0d874832e631fa1f = L.marker(
+                [47.7056, -122.162],
+                {}
+            ).addTo(map_251dcaa5aaad2cec042df89dd13443c5);
+        
+    
+            var icon_855c1c34b123c1170616f30cd77698aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_06347ebc57f062cf0d874832e631fa1f.setIcon(icon_855c1c34b123c1170616f30cd77698aa);
+        
+    
+        var popup_adda9fec8af4e46e271b7d2b054bceb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_209e2da18ba05bd873dea3194e6a3754 = $(`<div id="html_209e2da18ba05bd873dea3194e6a3754" style="width: 100.0%; height: 100.0%;">House ID: 8126300610<br>Price: $436800.00<br>House Grading: 8</div>`)[0];
+            popup_adda9fec8af4e46e271b7d2b054bceb2.setContent(html_209e2da18ba05bd873dea3194e6a3754);
+        
+
+        marker_06347ebc57f062cf0d874832e631fa1f.bindPopup(popup_adda9fec8af4e46e271b7d2b054bceb2)
+        ;
+
+        
+    
+</script>
+</html>
