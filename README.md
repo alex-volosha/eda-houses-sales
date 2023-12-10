@@ -3,6 +3,10 @@
 This project is centered around exploratory data
 analysis techniques and presentation of results to a client.
 
+---
+
+![alt text](./data/photo-4.png)
+
 # The data
 
 - I will use the King County Housing Data: This dataset contains information about home sales in King County (USA).
